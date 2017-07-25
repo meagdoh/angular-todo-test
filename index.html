@@ -1,0 +1,22 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en" ng-app='todoApp'>
+<head>
+ <meta charset="UTF-8">
+ <title>Angular Todos</title>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+ <script src="app.js"></script>
+</head>
+<body ng-controller='ToDosController as vm'>
+  <h2>To-dos</h2>
+  <div ng-repeat="todo in vm.todos">
+    <p>{{$index + 1}}. {{todo.name}} - {{todo.completed}}</p>
+  </div>
+<div>
+  <input type="text" ng-model="vm.newTodo">
+  <button ng-click="vm.addTodo()">Add Todo</button>
+  <p>User input: {{vm.newTodo}}</p>
+  </div>
+</body>
+</html>
