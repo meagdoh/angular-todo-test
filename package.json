@@ -1,0 +1,28 @@
+{
+  "name": "angulartodos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "jasmine": "^2.6.0",
+    "karma": "^1.7.0",
+    "karma-jasmine": "^1.1.0"
+  },
+  "devDependencies": {
+    "karma-chrome-launcher": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meagdoh/angular-todo-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meagdoh/angular-todo-test/issues"
+  },
+  "homepage": "https://github.com/meagdoh/angular-todo-test#readme"
+}
