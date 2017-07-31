@@ -5,6 +5,7 @@
   "main": "app.js",
   "dependencies": {
     "angular": "^1.6.5",
+    "angular-mocks": "^1.6.5",
     "jasmine": "^2.6.0",
     "karma": "^1.7.0",
     "karma-jasmine": "^1.1.0"
