@@ -24,5 +24,7 @@ function ToDosControllerFunction() {
             completed: false
         }
         this.todos.push(todo)
+        console.log(todo)
     };
+
 }
